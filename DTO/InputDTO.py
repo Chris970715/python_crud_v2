@@ -10,4 +10,4 @@ class InputDTO:
 class UpdateInputDTO:
     title: str | None
     description: str | None
-    completed: bool
+    completed: bool | None
